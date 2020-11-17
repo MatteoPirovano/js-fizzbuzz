@@ -32,7 +32,7 @@ li {
   position: relative;
   background-color: lightgreen;
   animation-name: fb_down;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }
@@ -40,7 +40,7 @@ li {
   position: relative;
   background-color: lightblue;
   animation-name: f_down;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
@@ -48,7 +48,7 @@ li {
   position: relative;
   background-color: orange;
   animation-name: b_down;
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }
