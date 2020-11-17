@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+.container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  position: relative;
+  width: 87%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+li {
+  list-style: none;
+ padding: 10px;
+ border-radius: 10px;
+ border: 1px solid black;
+ background: white;
+}
+#fb {
+  position: relative;
+  background-color: lightgreen;
+  animation-name: fb_down;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+#f {
+  position: relative;
+  background-color: lightblue;
+  animation-name: f_down;
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
+}
+#b {
+  position: relative;
+  background-color: orange;
+  animation-name: b_down;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes b_down {
+  from {top:  0px;}
+  to {top: 300px;}
+}
+@keyframes f_down {
+  from {top:  0px;}
+  to {top: 300px;}
+}
+@keyframes fb_down {
+  from {top:  0px;}
+  to {top: 300px;}
+}
+{animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
